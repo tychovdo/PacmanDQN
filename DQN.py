@@ -1,3 +1,7 @@
+# Modified version of
+# DQN implementation by Tejas Kulkarni found at
+# https://github.com/mrkulk/deepQN_tensorflow
+
 import numpy as np
 import tensorflow as tf
 

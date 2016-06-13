@@ -1,3 +1,13 @@
+# Used code from
+# DQN implementation by Tejas Kulkarni found at
+# https://github.com/mrkulk/deepQN_tensorflow
+
+# Attribution Information: The Pacman AI projects were developed at UC Berkeley.
+# The core projects and autograders were primarily created by John DeNero
+# (denero@cs.berkeley.edu) and Dan Klein (klein@cs.berkeley.edu).
+# Student side autograding was added by Brad Miller, Nick Hay, and
+# Pieter Abbeel (pabbeel@cs.berkeley.edu).
+
 import numpy as np
 import random
 import util
