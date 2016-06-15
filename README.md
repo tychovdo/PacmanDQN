@@ -10,23 +10,23 @@ $ python3 pacman.py -p PacmanDQN -n 4000 -x 3000 -l smallGrid
 ```
 ### Parameters
 
-Parameters can be found in the `paramters` dictionary in `pacmanDQN_Agents.py`.
-
-Models are saved as "checkpoint" files in the `\saves` directory.
-Load and save filenames can be set using the `load_file` and `save_file` parameters.
-
-Episodes before training starts: `train_start`
-Size of replay memory batch size: `batch_size`
-Amount of experience tuples in replay memory: `mem_size`
-Discount rate (gamma value): `discount`
-Learning rate: `lr`
-RMS Prop decay rate: `rms_decay`
-RMS Prop epsilon value: `rms_eps`
-
-Exploration/Exploitation (ε-greedy):
-Epsilon start value: `eps`
-Epsilon final value: `eps_final`
-Number of steps between start and final epsilon value (linear): `eps_step`
+Parameters can be found in the `paramters` dictionary in `pacmanDQN_Agents.py`. <br />
+ <br />
+Models are saved as "checkpoint" files in the `\saves` directory. <br />
+Load and save filenames can be set using the `load_file` and `save_file` parameters. <br />
+ <br />
+Episodes before training starts: `train_start` <br />
+Size of replay memory batch size: `batch_size` <br />
+Amount of experience tuples in replay memory: `mem_size` <br />
+Discount rate (gamma value): `discount` <br />
+Learning rate: `lr` <br />
+RMS Prop decay rate: `rms_decay` <br />
+RMS Prop epsilon value: `rms_eps` <br />
+ <br />
+Exploration/Exploitation (ε-greedy): <br />
+Epsilon start value: `eps` <br />
+Epsilon final value: `eps_final` <br />
+Number of steps between start and final epsilon value (linear): `eps_step` <br />
 
 
 ## Requirements
