@@ -15,6 +15,9 @@ python3 pacman.py -p PacmanDQN -n 10100 -x 10000 -l mediumClassic
 
 ## Acknoledgemenets
 
+DQN Framework by  (made for ATARI / Arcade Learning Environment)
 * [deepQN_tensorflow](https://github.com/mrkulk/deepQN_tensorflow) ([https://github.com/mrkulk/deepQN_tensorflow](https://github.com/mrkulk/deepQN_tensorflow))
+
+Pac-man implementation by UC Berkeley:
 * [The Pac-man Projects - UC Berkeley](http://ai.berkeley.edu/project_overview.html) ([http://ai.berkeley.edu/project_overview.html](http://ai.berkeley.edu/project_overview.html))
 
