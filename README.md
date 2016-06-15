@@ -1,13 +1,18 @@
 # PacmanDQN
 Deep Reinforcement Learning in Pac-man
 
-## Usage
+## Example usage
 
-Play 4000 games (3000 training, 1000 testing)
+Run a model on `smallGrid` layout for 6000 episodes, of which 5000 episodes
+are used for training.
 
 ```
-$ python3 pacman.py -p PacmanDQN -n 4000 -x 3000 -l smallGrid
+$ python3 pacman.py -p PacmanDQN -n 6000 -x 5000 -l smallGrid
 ```
+
+### Layouts
+Different layouts can be found and created in the `layouts` directory
+
 ### Parameters
 
 Parameters can be found in the `paramters` dictionary in `pacmanDQN_Agents.py`. <br />
