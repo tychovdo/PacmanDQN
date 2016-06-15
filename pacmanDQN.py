@@ -27,7 +27,7 @@ from DQN import *
 params = {
     # Model backups
     'load_file': None,
-    'save_file': "savefile",
+    'save_file': None,
     'save_interval' : 10000, 
 
     # Training parameters
@@ -48,10 +48,10 @@ params = {
 
 
 
-class AlphaAgent(game.Agent):
+class PacmanDQN(game.Agent):
     def __init__(self, args):
 
-        print("Initialise AlphaAgent")
+        print("Initialise DQN Agent")
 
         # Load parameters from user-given arguments
         self.params = params
