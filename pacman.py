@@ -53,7 +53,7 @@ import time
 import random
 import os
 
-import alphaAgents
+import pacmanDQN_Agents
 import ghostAgents
 
 ###################################################
