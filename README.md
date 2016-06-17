@@ -15,9 +15,9 @@ Different layouts can be found and created in the `layouts` directory
 
 ### Parameters
 
-Parameters can be found in the `paramters` dictionary in `pacmanDQN_Agents.py`. <br />
+Parameters can be found in the `params` dictionary in `pacmanDQN_Agents.py`. <br />
  <br />
-Models are saved as "checkpoint" files in the `\saves` directory. <br />
+Models are saved as "checkpoint" files in the `/saves` directory. <br />
 Load and save filenames can be set using the `load_file` and `save_file` parameters. <br />
  <br />
 Episodes before training starts: `train_start` <br />
