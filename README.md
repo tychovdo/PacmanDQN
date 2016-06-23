@@ -3,7 +3,7 @@ Deep Reinforcement Learning in Pac-man
 
 ## Demo
 
-[![ScreenShot](https://github.com/tychovdo/PacmanDQN/blob/master/PacmanDQN_Video.mp4?raw=true)](https://youtu.be/QilHGSYbjDQ)
+![Demo](https://github.com/tychovdo/PacmanDQN/blob/master/PacmanDQN_wingif.gif)](https://youtu.be/QilHGSYbjDQ)
 
 ## Example usage
 
