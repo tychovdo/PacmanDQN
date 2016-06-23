@@ -1,6 +1,10 @@
 # PacmanDQN
 Deep Reinforcement Learning in Pac-man
 
+## Demo
+
+[![ScreenShot](https://github.com/tychovdo/PacmanDQN/blob/master/PacmanDQN_Video.mp4?raw=true)](https://youtu.be/QilHGSYbjDQ)
+
 ## Example usage
 
 Run a model on `smallGrid` layout for 6000 episodes, of which 5000 episodes
