@@ -65,7 +65,7 @@ class PacmanDQN(game.Agent):
         self.qnet = DQN(self.params)
 
         # Q and cost
-        self.Q_global = 0
+        self.Q_global = []
         self.cost_disp = 0     
 
         # Stats
@@ -94,7 +94,7 @@ class PacmanDQN(game.Agent):
                              self.qnet.terminals: np.zeros(1),
                              self.qnet.rewards: np.zeros(1)})[0]
 
-            self.Q_global = max(self.Q_global, np.amax(self.Q_pred))
+            self.Q_global.append(max(self.Q_pred))
             a_winner = np.argwhere(self.Q_pred == np.amax(self.Q_pred))
 
             if len(a_winner) > 1:
@@ -198,7 +198,7 @@ class PacmanDQN(game.Agent):
         # Print stats
         sys.stdout.write("# %4d | steps: %5d | steps_t: %5d | t: %4f | r: %12f | e: %10f " %
                          (self.numeps,self.local_cnt, self.cnt, time.time()-self.s, self.ep_rew, self.params['eps']))
-        sys.stdout.write("| Q: %10f | won: %r \n" % (self.Q_global, self.won))                 
+        sys.stdout.write("| Q: %10f | won: %r \n" % ((max(self.Q_global, default=float('nan')), self.won)))
         sys.stdout.flush()
 
     def train(self):
@@ -364,7 +364,7 @@ class PacmanDQN(game.Agent):
         # Reset vars
         self.terminal = None
         self.won = True
-        self.Q_global = 0
+        self.Q_global = []
         self.delay = 0
 
         # Next
