@@ -150,7 +150,7 @@ class PacmanDQN(game.Agent):
             elif reward > 0:
                 self.last_reward = 10.    # Eat food    (Yum!)
             elif reward < -10:
-                self.last_reward = -100.  # Get eaten   (Ouch!)
+                self.last_reward = -500.  # Get eaten   (Ouch!) -500
                 self.won = False
             elif reward < 0:
                 self.last_reward = -1.    # Punish time (Pff..)
