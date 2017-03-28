@@ -60,7 +60,7 @@ class DQN:
         self.rmsprop = tf.train.RMSPropOptimizer(self.params['lr'],self.params['rms_decay'],0.0,self.params['rms_eps']).minimize(self.cost,global_step=self.global_step)
         self.saver = tf.train.Saver(max_to_keep=0)
 
-        self.sess.run(tf.initialize_all_variables())
+        self.sess.run(tf.global_variables_initializer())
 
         if self.params['load_file'] is not None:
             print('Loading checkpoint...')
