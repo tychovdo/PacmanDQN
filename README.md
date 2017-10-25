@@ -29,8 +29,6 @@ Size of replay memory batch size: `batch_size` <br />
 Amount of experience tuples in replay memory: `mem_size` <br />
 Discount rate (gamma value): `discount` <br />
 Learning rate: `lr` <br />
-RMS Prop decay rate: `rms_decay` <br />
-RMS Prop epsilon value: `rms_eps` <br />
  <br />
 Exploration/Exploitation (ε-greedy): <br />
 Epsilon start value: `eps` <br />

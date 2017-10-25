@@ -57,7 +57,8 @@ class DQN:
         else:
             self.global_step = tf.Variable(0, name='global_step', trainable=False)
         
-        self.rmsprop = tf.train.RMSPropOptimizer(self.params['lr'],self.params['rms_decay'],0.0,self.params['rms_eps']).minimize(self.cost,global_step=self.global_step)
+        # self.optim = tf.train.RMSPropOptimizer(self.params['lr'],self.params['rms_decay'],0.0,self.params['rms_eps']).minimize(self.cost,global_step=self.global_step)
+        self.optim = tf.train.AdamOptimizer(self.params['lr']).minimize(self.cost, global_step=self.global_step)
         self.saver = tf.train.Saver(max_to_keep=0)
 
         self.sess.run(tf.global_variables_initializer())
@@ -72,7 +73,7 @@ class DQN:
         q_t = self.sess.run(self.y,feed_dict=feed_dict)
         q_t = np.amax(q_t, axis=1)
         feed_dict={self.x: bat_s, self.q_t: q_t, self.actions: bat_a, self.terminals:bat_t, self.rewards: bat_r}
-        _,cnt,cost = self.sess.run([self.rmsprop,self.global_step,self.cost],feed_dict=feed_dict)
+        _,cnt,cost = self.sess.run([self.optim, self.global_step,self.cost],feed_dict=feed_dict)
         return cnt, cost
 
     def save_ckpt(self,filename):

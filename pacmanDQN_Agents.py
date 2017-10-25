@@ -37,8 +37,8 @@ params = {
 
     'discount': 0.95,       # Discount rate (gamma value)
     'lr': .0002,            # Learning reate
-    'rms_decay': 0.99,      # RMS Prop decay
-    'rms_eps': 1e-6,        # RMS Prop epsilon
+    # 'rms_decay': 0.99,      # RMS Prop decay (switched to adam)
+    # 'rms_eps': 1e-6,        # RMS Prop epsilon (switched to adam)
 
     # Epsilon value (epsilon-greedy)
     'eps': 1.0,             # Epsilon start value
