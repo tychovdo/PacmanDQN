@@ -39,7 +39,7 @@ Number of steps between start and final epsilon value (linear): `eps_step` <br /
 
 Link to my thesis:
 
-* [van der Ouderaa, T. (2016). Deep Reinforcement Learning in Pac-man.](van der Ouderaa, T. (2016). Deep Reinforcement Learning in Pac-man.)
+* [van der Ouderaa, T. (2016). Deep Reinforcement Learning in Pac-man.](https://esc.fnwi.uva.nl/thesis/centraal/files/f323981448.pdf)
 
 ## Requirements
 
