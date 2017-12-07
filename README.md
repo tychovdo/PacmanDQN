@@ -35,13 +35,18 @@ Epsilon start value: `eps` <br />
 Epsilon final value: `eps_final` <br />
 Number of steps between start and final epsilon value (linear): `eps_step` <br />
 
+## Thesis
+
+Link to my thesis:
+
+* [van der Ouderaa, T. (2016). Deep Reinforcement Learning in Pac-man.](van der Ouderaa, T. (2016). Deep Reinforcement Learning in Pac-man.)
 
 ## Requirements
 
 - `python==3.5.1`
 - `tensorflow==0.8rc`
 
-## Acknoledgemenets
+## Acknoledgements
 
 DQN Framework by  (made for ATARI / Arcade Learning Environment)
 * [deepQN_tensorflow](https://github.com/mrkulk/deepQN_tensorflow) ([https://github.com/mrkulk/deepQN_tensorflow](https://github.com/mrkulk/deepQN_tensorflow))
