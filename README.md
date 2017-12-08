@@ -35,9 +35,22 @@ Epsilon start value: `eps` <br />
 Epsilon final value: `eps_final` <br />
 Number of steps between start and final epsilon value (linear): `eps_step` <br />
 
-## Thesis
+## Citation
 
-Link to my thesis:
+Please cite this repository if it was useful for your research:
+
+```
+@article{van2016deep,
+  title={Deep Reinforcement Learning in Pac-man},
+  subtitle={Bachelor Thesis},
+  author={van der Ouderaa, Tycho},
+  year={2016},
+  school={University of Amsterdam},
+  type={Bachelor Thesis},
+  pdf={https://esc.fnwi.uva.nl/thesis/centraal/files/f323981448.pdf},
+}
+
+```
 
 * [van der Ouderaa, Tycho (2016). Deep Reinforcement Learning in Pac-man.](https://esc.fnwi.uva.nl/thesis/centraal/files/f323981448.pdf)
 
