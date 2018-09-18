@@ -6,6 +6,7 @@
 # The Pacman AI projects were developed at UC Berkeley found at
 # http://ai.berkeley.edu/project_overview.html
 
+
 import numpy as np
 import random
 import util
