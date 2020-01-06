@@ -13,6 +13,7 @@ __pycache__/
 # Distribution / packaging
 .Python
 env/
+.idea/
 build/
 develop-eggs/
 dist/
@@ -27,6 +28,7 @@ var/
 *.egg-info/
 .installed.cfg
 *.egg
+
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -45,9 +47,6 @@ target/
 
 # pyenv
 .python-version
-
-# dotenv
-.env
 
 # virtualenv
 venv/

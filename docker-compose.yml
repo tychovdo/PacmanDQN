@@ -1,0 +1,23 @@
+version: '3.7'
+# you need to run the command xhost local:root' before launching 'sudo docker-compose up'
+services:
+  pacman_dqn:
+  #  image: python:3.7-slim-buster
+    working_dir: /usr/src/app
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    image: python-pacman-dqn
+    command: "sh -c 'pip install -r requirements.txt
+      && python pacman.py -p PacmanDQN -n $TOTAL_GAMES_NB -x $TRAINING_GAMES_NB -l $LAYOUT
+#      && while sleep 3600; do :; done
+      '"
+    volumes:
+      - ./:/usr/src/app
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+      - /tmp/.docker.xauth:/tmp/.docker.xauth:rw
+    environment:
+      - DISPLAY
+      - XAUTHORITY=/tmp/.docker.xauth
+    stdin_open: true
+    tty: true
