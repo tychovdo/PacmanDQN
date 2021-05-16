@@ -59,7 +59,7 @@ Please cite this repository if it was useful for your research:
 - `python==3.5.1`
 - `tensorflow==0.8rc`
 
-## Acknoledgements
+## Acknowledgements
 
 DQN Framework by  (made for ATARI / Arcade Learning Environment)
 * [deepQN_tensorflow](https://github.com/mrkulk/deepQN_tensorflow) ([https://github.com/mrkulk/deepQN_tensorflow](https://github.com/mrkulk/deepQN_tensorflow))
