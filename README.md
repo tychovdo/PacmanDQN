@@ -47,7 +47,6 @@ Please cite this repository if it was useful for your research:
   year={2016},
   school={University of Amsterdam},
   type={Bachelor Thesis},
-  pdf={https://esc.fnwi.uva.nl/thesis/centraal/files/f323981448.pdf},
 }
 
 ```
