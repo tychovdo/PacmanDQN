@@ -1,6 +1,15 @@
 # PacmanDQN
 Deep Reinforcement Learning in Pac-man
 
+
+
+## Useful papers
+* https://davideliu.com/2020/02/13/playing-pacman-with-multi-agents-adversarial-search/
+* https://arxiv.org/pdf/1702.08887.pdf
+* https://esc.fnwi.uva.nl/thesis/centraal/files/f323981448.pdf
+* Decoupling Value and Policy for Generalization in Reinforcement Learning
+* Improving Generalization in Reinforcement Learning with Mixture Regularization
+* Environment Generalization in Deep Reinforcement Learning
 ## Demo
 
 [![Demo](https://github.com/tychovdo/PacmanDQN/blob/master/videos/PacmanDQN_wingif.gif)](https://youtu.be/QilHGSYbjDQ)
